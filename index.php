@@ -86,7 +86,7 @@
 <!--__________________________________Seccion de adentro Trabajar Tablas y footers a partir de aca -->
 <section class="home-section">
   
-<div class="text">LIKE para prueba rama</div>
+<div class="text">LIKE para prueba push</div>
 
 
   
