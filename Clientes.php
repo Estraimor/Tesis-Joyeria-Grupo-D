@@ -44,10 +44,10 @@
     </li>
     <li>
       <a href="#">
-        <i class='bx bx-pie-chart-alt-2'></i>
-        <span class="links_name">Analytics</span>
+      <i class='bx bxs-calendar-event' ></i>
+        <span class="links_name">Ventas</span>
       </a>
-      <span class="tooltip">Analytics</span>
+      <span class="tooltip">Ventas</span>
     </li>
     <li>
       <a href="#">
@@ -65,10 +65,10 @@
     </li>
     <li>
       <a href="#">
-        <i class='bx bx-cog'></i>
-        <span class="links_name">Setting</span>
+      <i class='bx bxs-landscape'></i>
+        <span class="links_name">Material</span>
       </a>
-      <span class="tooltip">Setting</span>
+      <span class="tooltip">Material</span>
     </li>
     <li class="profile">
       <div class="profile-details">
