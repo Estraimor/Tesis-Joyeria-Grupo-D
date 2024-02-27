@@ -29,7 +29,7 @@
   </div>
   <ul class="nav-list">
     <li>
-      <a href="index.php">
+      <a href="../index.php">
         <i class='bx bx-grid-alt'></i>
         <span class="links_name">Inicio</span>
       </a>
@@ -43,28 +43,28 @@
       <span class="tooltip">Clientes</span>
     </li>
     <li>
-      <a href="#">
+      <a href="../Ventas/Ventas.php">
       <i class='bx bxs-calendar-event' ></i>
         <span class="links_name">Ventas</span>
       </a>
       <span class="tooltip">Ventas</span>
     </li>
     <li>
-      <a href="#">
+      <a href="../Stock/Stock.php">
         <i class='bx bx-folder'></i>
         <span class="links_name">Stock</span>
       </a>
       <span class="tooltip">Stock</span>
     </li>
     <li>
-      <a href="#">
+      <a href="../Proveedor/Proveedor.php">
         <i class='bx bx-cart-alt'></i>
         <span class="links_name">Proveedor</span>
       </a>
       <span class="tooltip">Proveedor</span>
     </li>
     <li>
-      <a href="#">
+      <a href="../Material/Material.php">
       <i class='bx bxs-landscape'></i>
         <span class="links_name">Material</span>
       </a>
