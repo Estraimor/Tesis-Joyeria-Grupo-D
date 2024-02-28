@@ -36,7 +36,7 @@
       <span class="tooltip">Inicio</span>
     </li>
     <li>
-      <a href="#">
+      <a href="../Clientes/Clientes.php">
         <i class='bx bx-user'></i>
         <span class="links_name">Clientes</span>
       </a>
