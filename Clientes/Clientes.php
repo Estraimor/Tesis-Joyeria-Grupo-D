@@ -86,7 +86,7 @@
 <!--__________________________________Seccion de adentro Trabajar Tablas y footers a partir de aca -->
 <section class="home-section">
   
-<div class="text">Aqui va la tabla de clientes</div>
+<div class="text">Aqui </div>
 
 
   
