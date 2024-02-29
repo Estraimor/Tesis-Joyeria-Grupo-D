@@ -1,3 +1,6 @@
+<?php
+include'../Base de datos/conexion.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -100,13 +103,13 @@
             <div class="export__file">
                 <label for="export-file" class="export__file-btn" title="Export File"></label>
                 <input type="checkbox" id="export-file">
-                <div class="export__file-options">
+                <!-- <div class="export__file-options">
                     <label>Export As &nbsp; &#10140;</label>
                     <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
                     <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
                     <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
                     <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
-                </div>
+                </div> -->
             </div>
         </section>
         <section class="table__body">
@@ -114,25 +117,28 @@
                 <thead>
                     <tr>
                         <th> Id <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Customer <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Location <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Order Date <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Status <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Amount <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Nombre <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Apellido <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Celular <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- <th> Status <span class="icon-arrow">&UpArrow;</span></th> -->
+                        <!-- <th> Amount <span class="icon-arrow">&UpArrow;</span></th> -->
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+            $sql1 = "select * from cliente c ";
+            $query1 = mysqli_query($conexion, $sql1);
+            while ($datos = mysqli_fetch_assoc($query1)) {
+                ?>
                     <tr>
-                        <td> 1 </td>
-                        <td> <img src="images/Zinzu Chan Lee.jpg" alt="">Zinzu Chan Lee</td>
-                        <td> Seoul </td>
-                        <td> 17 Dec, 2022 </td>
-                        <td>
-                            <p class="status delivered">Delivered</p>
-                        </td>
-                        <td> <strong> $128.90 </strong></td>
+                        <td> <?php echo $datos['idcliente']; ?> </td>
+                        <td> <?php echo $datos['nombre_cliente']; ?> </td>
+                        <td> <?php echo $datos['apellido_cliente']; ?> </td>
+                        <td> <?php echo $datos['celular']; ?> </td>
+                        
                     </tr>
-                    <tr>
+                    <?php } ?>
+                    <!-- <tr>
                         <td> 2 </td>
                         <td><img src="images/Jeet Saru.png" alt=""> Jeet Saru </td>
                         <td> Kathmandu </td>
@@ -251,7 +257,7 @@
                             <p class="status cancelled">Cancelled</p>
                         </td>
                         <td> <strong>$249.99</strong> </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </section>
@@ -260,7 +266,7 @@
 
 
 
-<br><br><br><br><br><br>
+
 
 <footer>
       <div class="background">
