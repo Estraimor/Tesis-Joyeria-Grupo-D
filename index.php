@@ -24,7 +24,7 @@
 <!-- partial:index.partial.html -->
 <div class="sidebar">
   <div class="logo-details">
-    <div class="logo_name">Joyeria Sosa</div>
+    <div class="logo_name"> 💎 Joyeria Sosa</div>
     <i class='bx bx-menu' id="btn"></i>
   </div>
   <ul class="nav-list">
@@ -86,7 +86,7 @@
 <!--__________________________________Seccion de adentro Trabajar Tablas y footers a partir de aca -->
 <section class="home-section">
   
-<div class="text">LIKE para prueba push</div>
+<div class="text"></div>
 
 
   
